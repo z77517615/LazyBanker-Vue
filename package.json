@@ -30,5 +30,12 @@
     "cz-customizable": {
       "config": ".cz-config.ts"
     }
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "eslint": "9"
+      }
+    }
   }
 }
